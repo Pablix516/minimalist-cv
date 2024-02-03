@@ -1,0 +1,71 @@
+---
+import Section from '@/components/Section.astro'
+import { work } from '@resume'
+---
+
+<Section title="Experience">
+    <ul>
+        {
+            work.map(({ name, position, summary, startDate, endDate, remote }) => {
+                const end = endDate != null ? endDate : "Presente"
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>{name}</h3>
+                                    <h4>
+                                        {remote}
+                                    </h4>
+                                </div>
+                                <p>
+                                    {startDate} - {endDate != null ? endDate : "Presente"}
+                                </p>
+                            </header>
+                            <footer>
+                                <h4>{position}</h4>
+                                <p>{summary}</p>
+                            </footer>
+                        </article>
+                    </li>
+                )
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    li {
+        margin-top: 10px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    header div h4 {
+        color: #111;
+        font-size: 0.8rem;
+        font-weight: 500;
+        background: #eee;
+        padding: 4px;
+        border-radius: 6px;
+    }
+
+    footer h4{
+        color: #777;
+        font-weight: 500;
+    }
+</style>

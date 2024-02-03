@@ -1,0 +1,6 @@
+{
+    "editor.linkedEditing": true,
+    "breadcrumbs.enabled": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.proseWrap": "never"
+}

@@ -1,0 +1,135 @@
+{
+    "basics": {
+        "name": "Pablo Vega Garcimartín",
+        "label": "Ingeniero informático",
+        "image": "/me.webp",
+        "email": "pablo.vega.garcimartin@gmail.com",
+        "phone": "+34 639241284",
+        "url": "",
+        "summary": "Estudiante del último curso del Grado en Ingeniería Informática, con una destacada capacidad para adaptarme a diversos entornos y un compromiso constante para ofrecer lo mejor de mí. Me distingo por mi habilidad para trabajar de manera efectiva en equipo, mi entusiasmo por el aprendizaje continuo y el desarrollo de mis habilidades, así como por mi dedicación y esfuerzo para superar las expectativas en cada tarea. Con ganas de entrar a la vida laboral que me permita adquirir más experiencia y contribuir al éxito de un equipo innovador.",
+        "location": {
+            "address": "Calle Gerardo Cordón",
+            "postalCode": "28017",
+            "city": "Madrid",
+            "countryCode": "ES",
+            "region": "España"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Pablo Vega Garcimartín",
+                "url": "https://www.linkedin.com/in/pablo-vega-garcimart%C3%ADn-4465372a7/"
+            },
+            {
+                "network": "Github",
+                "username": "Pablix516",
+                "url": "https://github.com/Pablix516"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Company",
+            "position": "President",
+            "remote": "En remoto",
+            "url": "https://company.com",
+            "startDate": "2013",
+            "endDate": null,
+            "summary": "Description…",
+            "highlights": ["Started the company"]
+        },
+        {
+            "name": "Company",
+            "position": "President",
+            "remote": "Presencial",
+            "url": "https://company.com",
+            "startDate": "2013",
+            "endDate": "2015",
+            "summary": "Description…",
+            "highlights": ["Started the company"]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University",
+            "url": "https://institution.com/",
+            "area": "Software Development",
+            "studyType": "Bachelor",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "score": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["HTML", "CSS", "JavaScript"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": ["Won award at AIHacks 2016"],
+            "url": "https://project.com/"
+        }
+    ]
+}
